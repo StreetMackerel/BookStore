@@ -1,0 +1,99 @@
+body{
+    background-image: url("bg.jpg");
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+}
+
+table{
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 15px;
+    color:black;
+}
+
+thead{
+    background: #474747;
+    color:white;
+}
+
+label{
+    color:white;    
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    margin-top: 20px;
+    
+}
+
+navbar, li{
+    padding-top:4px;
+}
+
+h2, h1, h3{
+    color:white;
+    font-family: 'Philosopher', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.footer {
+    height:50px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+    background-color: #474747;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: url("bg.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mycard{
+    margin: 10px;
+	background-color:white;
+	border-radius:15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height:220px;
+	
+}
+.mycard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardCover{
+	float: right;
+    padding: 10px;
+}
+.cardTitle{
+	padding: 10px;
+    font-size: 16px;
+}
+.author{
+	color:#474747;
+
+}
+.cardElement{
+	color:#474747;
+    text-align: center;
+    padding-top: 2px;
+}
+.mycardcontent{
+	padding-left:10px;
+    padding-right:10px;
+}
